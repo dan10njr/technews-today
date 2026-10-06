@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0b0e1b; color: #e2e8f0; font-family: system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; padding: 2rem 1rem; }
+.cabecalho { text-align: center; margin-bottom: 2.5rem; }
+.logo { font-size: 2.2rem; color: #c084fc; margin-bottom: 0.5rem; }
+.tagline { color: #94a3b8; font-size: 0.95rem; }
+.tagline strong { color: #ffffff; }
+.conteudo { width: 100%; max-width: 800px; display: flex; flex-direction: column; gap: 2.5rem; }
+.artigo-destaque { background: #26334d; border-radius: 16px; padding: 2rem; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5); }
+.artigo-destaque h2 { color: #60a5fa; font-size: 1.5rem; margin-bottom: 0.75rem; }
+.data { display: block; color: #94a3b8; font-size: 0.85rem; margin-bottom: 0.75rem; }
+.artigo-destaque > p { color: #cbd5e1; margin-bottom: 1rem; line-height: 1.5; }
+.leia-mais summary { color: #f59e0b; font-weight: bold; cursor: pointer; }
+.leia-mais summary:hover { color: #fbbf24; }
+.leia-mais[open] summary { margin-bottom: 0.5rem; }
+.leia-mais p { color: #94a3b8; font-size: 0.9rem; padding-left: 1rem; border-left: 2px solid #f59e0b; }
+.secoes-secundarias { display: flex; gap: 2rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
+.secao-video { display: flex; flex-direction: column; align-items: center; }
+.secao-video h3 { color: #ffffff; font-size: 1.1rem; margin-bottom: 1rem; }
+.video-embed { border-radius: 12px; border: 2px solid #3b82f6; box-shadow: 0 4px 15px rgba(0,0,0,0.4); }
+.secao-newsletter { background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); border-radius: 16px; padding: 1.5rem; width: 300px; box-shadow: 0 10px 25px -5px rgba(99,102,241,0.4); }
+.secao-newsletter h3 { color: #ffffff; font-size: 1.2rem; margin-bottom: 1rem; }
+.form-newsletter { display: flex; flex-direction: column; gap: 0.75rem; }
+.form-newsletter label { font-size: 0.85rem; color: #e0e7ff; font-weight: 500; }
+.form-newsletter input[type="email"], .form-newsletter select { width: 100%; padding: 0.6rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.15); color: #fff; outline: none; }
+.form-newsletter select option { background: #1e293b; color: #fff; }
+.checkbox-container { display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin: 0.5rem 0; }
+.checkbox-container input { accent-color: #f97316; }
+.form-newsletter button { background: #f97316; color: #fff; border: none; border-radius: 8px; padding: 0.75rem; font-weight: bold; cursor: pointer; }
+.form-newsletter button:hover { background: #ea580c; }
+.rodape { text-align: center; margin-top: auto; padding-top: 3rem; color: #64748b; font-size: 0.85rem; display: flex; flex-direction: column; gap: 0.4rem; }
+.rodape a { color: #38bdf8; text-decoration: none; }
+.rodape a:hover { text-decoration: underline; }
