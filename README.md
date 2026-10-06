@@ -1,6 +1,6 @@
 # TechNews Today
 
-Bem-vindo ao **TechNews Today**! 🚀  
+Bem-vindo ao **TechNews Today**  
 Este é um portal de notícias moderno sobre o mundo da tecnologia, desenvolvido com **HTML5 semântico** e um visual **Dark Mode em CSS3**.
 
 ---
